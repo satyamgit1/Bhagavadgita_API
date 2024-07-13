@@ -69,3 +69,10 @@ This will display all the time stamp of youtube video lecture
 ```
 This will display all the questions of a specific verse
 
+#### Redis
+
+```http
+  http://localhost:4000/calculate-data
+```
+
+
