@@ -68,7 +68,18 @@ This will display all the time stamp of youtube video lecture
   http://localhost:4000/api/questions/${verseId}
 ```
 This will display all the questions of a specific verse
+### to run the Redis on terminal = docker run -d --name redis-stack -p 6379:6379 -p 8001:8001 redis/redis-stack:latest
+### Stop and Remove All Containers
+Stop all running containers:
 
+#### docker stop $(docker ps -q)
+Remove all containers:
+
+docker rm $(docker ps -a -q)
+Remove All Images
+Remove all images:
+
+docker rmi $(docker images -q)
 #### Redis
 
 ```http
