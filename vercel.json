@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "Gita-Learn-Api",
+    "name": "Bhagavadgita-api",
 
     "builds": [
       { "src": "app.js", "use": "@vercel/node" }
